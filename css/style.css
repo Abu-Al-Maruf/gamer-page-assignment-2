@@ -537,7 +537,7 @@
     font-size: 35px;
     margin-left: 10px;
   }
-  .navbar{
+  .navbar {
     box-shadow: none;
   }
   .navbar ul li {
@@ -552,14 +552,14 @@
     padding: 30px;
     background-image: none;
   }
-  .main-left{
+  .main-left {
     padding: 50px;
-    background-image: url('../images/main-bg.png');
+    background-image: url("../images/main-bg.png");
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 100%;
   }
-  .main-right{
+  .main-right {
     padding: 25px;
   }
   .main-left h2 {
@@ -572,7 +572,7 @@
     font-size: 13px;
     margin-top: 8px;
   }
-  .main-left ul li img{
+  .main-left ul li img {
     width: 20px;
   }
   .button-container {
@@ -585,32 +585,32 @@
     font-size: 12px;
     padding: 12px 18px;
   }
-  .blue-btn{
+  .blue-btn {
     margin-left: 10px;
   }
-  .footer-container{
+  .footer-container {
     padding: 70px;
   }
   .footer-container ul,
-  .footer-container .social-icons{
+  .footer-container .social-icons {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .footer-container ul li{
+  .footer-container ul li {
     margin-left: 10px;
   }
-  .social-icons img{
+  .social-icons img {
     width: 75px;
   }
-  .copyright{
+  .copyright {
     font-size: 9px;
     width: 75%;
     text-align: center;
   }
-  .footer-container ul li a{
+  .footer-container ul li a {
     font-size: 12px;
   }
-  .extra-link{
+  .extra-link {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -620,13 +620,131 @@
   .extra-link a {
     margin-left: 0;
     font-size: 12px;
-
   }
   .footer-container .social-icons,
   .footer-container ul,
-  .extra-link{
+  .extra-link {
     margin-top: 45px;
   }
+  .all-games {
+    padding: 30px 10px;
+    background: #fff;
+  }
+  .games-container {
+    gap: 7px;
+  }
+  .games-box h4 {
+    font-size: 9px;
+    margin-left: 7px;
+  }
+  .games-box img {
+    width: 25px;
+  }
+  .games-box {
+    padding: 6px;
+  }
+
+  .gamers {
+    flex-direction: column;
+    padding: 30px 10px;
+    background: #fff;
+  }
+  .gamers-right {
+    text-align: center;
+    align-items: center;
+  }
+  .gamers-right h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .gamers-right p {
+    font-size: 12px;
+    line-height: 20px;
+    width: 75%;
+  }
+  .gamers-right strong {
+    font-size: 18px;
+  }
+  .gamers-right span {
+    font-size: 16px;
+    line-height: normal;
+    margin-top: 30px;
+  }
+
+  .online {
+    padding: 50px 10px;
+  }
+  .online-box-container {
+    justify-content: center;
+    gap: 10px;
+  }
+  .online-box-container .box::before {
+    border-radius: 12px;
+    height: 82.5%;
+  }
+  .online .online-title {
+    font-size: 25px;
+  }
+  .online-des {
+    font-size: 10px;
+  }
+  .online-box-container .box:nth-child(3) p {
+    width: 100%;
+  }
+  .online-box-container .box p {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 16px;
+  }
+
+  .play{
+    padding: 30px 10px;
+    padding-bottom: 100px;
+  }
+.play-instant,
+.play-anytime{
+  flex-direction: column;
+}
+.play-left,
+.play-anytime .play-left{
+  text-align: center;
+}
+.play-right .man,
+.play-right .woman {
+  width: 63%;
+}
+.man-small,
+.woman-small{
+  width: 125px;
+}
+.play-right{
+  text-align: center;
+}
+.man-small {
+  left: 12px;
+  bottom: -43px;
+}
+.woman-small {
+  right: 5px;
+  bottom: -59px;
+}
+.play-left h2 {
+  font-size: 20px;
+  width: 45%;
+  margin: 0 auto;
+}
+.play-left p {
+  font-size: 10px;
+  line-height: 18px;
+  width: 60%;
+  margin: 22px auto;
+}
+
+
+
+
+
+
 
 
 }
