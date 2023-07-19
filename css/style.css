@@ -284,10 +284,12 @@
   height: 83%;
   opacity: 0;
   cursor: pointer;
+  border: 2px solid #ff42a5;
 }
 .online-box-container .box:hover::before {
   opacity: 1;
 }
+
 .online-box-container .box:hover .hover-see {
   display: initial;
   display: flex;
