@@ -765,6 +765,8 @@
     align-items: center;
     justify-content: center;
     gap: 40px;
+    background-position: top center;
+    background-size: 70%;
   }
   .main-left h2 {
     font-size: 35px;
@@ -801,7 +803,10 @@
     justify-content: center;
   }
   .online{
-    padding: 30px 10px;
+    padding: 30px 90px;
+  }
+  .online-box-container .box{
+    margin-top: 15px;
   }
 .play{
   padding: 30px 10px;
@@ -817,11 +822,17 @@
 .play-left p{
   width: 90%;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 20px auto;
 }
 .play-anytime .play-left h2{
   width: 85%;
   text-align: center;
+}
+.extra-link {
+  margin-top: 50px;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 10px;
 }
 .play-anytime .play-left p{
   width: 85%;
@@ -860,4 +871,55 @@
 }
 
 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+  .header-main{
+    padding: 30px 100px;
+    gap: 15px;
+  }
+  .blue-btn{
+    margin-left: 13px;
+  }
+  .gamers{
+    padding: 80px 100px;
+  }
+  .online{
+    padding: 120px 100px;
+  }
+  .online-box-container {
+    justify-content: center;
+    gap: 30px;
+}
+.play{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.all-games{
+  padding: 120px 100px;
+}
+.main-left{
+  flex-basis: 55%;
+}
+.main-right{
+  flex-basis: 40%;
+}
+.button-container{
+  display: flex;
+}
+.main-left h1{
+  font-size: 74px;
+}
+.main-left h2{
+  font-size: 37px;
+}
+.btn-primary {
+  font-size: 16px;
+  padding: 16px 36px;
+}
+.gamers-right strong {
+  font-size: 20px;
+}
+  
 }
